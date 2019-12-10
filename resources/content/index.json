@@ -1,0 +1,6 @@
+{
+    "view": "layout.default",
+    "path": "/",
+    "title": "A blazing-fast static site generator using Laravel's Blade templating engine",
+    "github_link": "https://github.com/aschmelyun/cleaver"
+}

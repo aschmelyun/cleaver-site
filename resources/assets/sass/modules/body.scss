@@ -1,0 +1,31 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  @media (min-width: 1280px) {
+    max-width: 1024px;
+  }
+}
+.transition {
+  transition: all .25s;
+}
+
+.transition-bg {
+  transition-property: background;
+}
+
+.transition-slow {
+  transition-duration: .5s;
+}
+
+.transition-slower {
+  transition-duration: .5s;
+}
+
+.transition-fast {
+  transition-duration: .15s;
+}
+
+.transition-faster {
+  transition-duration: .075s;
+}
