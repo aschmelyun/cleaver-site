@@ -1,6 +1,7 @@
 {
     "view": "layout.default",
     "path": "/",
-    "title": "A blazing-fast static site generator using Laravel's Blade templating engine",
+    "title": "A blazing-fast static site generator using Laravel Blade",
+    "description": "Cleaver is a static site generator for rapid development using Laravel's Blade templating engine, JSON or Markdown, and the Tailwind CSS library.",
     "github_link": "https://github.com/aschmelyun/cleaver"
 }

@@ -2,6 +2,7 @@
     "view": "layout.docs",
     "path": "/docs",
     "title": "Getting started and full documentation",
+    "description": "Creating a project with Cleaver takes less than 5 minutes using Composer and NPM, and your sites are built in milliseconds.",
     "sections": [
         {
             "title": "Installation",
