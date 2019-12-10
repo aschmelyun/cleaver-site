@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en_US">
+<html lang="en-US">
 @include('partials.head')
 <body class="{{ $bodyClasses ?? '' }}">
     <div class="intro font-sans">
