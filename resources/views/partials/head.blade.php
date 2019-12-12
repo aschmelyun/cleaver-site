@@ -34,4 +34,14 @@
     <link rel="icon" href="/assets/images/icons/favicon-32x32.png" type="image/png">
 
     <meta name="theme-color" content="#d53f8c">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154455393-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154455393-1');
+    </script>
+
 </head>
