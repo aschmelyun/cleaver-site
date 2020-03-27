@@ -64,7 +64,7 @@
                 },
                 {
                     "type": "text",
-                    "text": "The template used is specified in the <strong>view</strong> variable (via the structure in your resources directory). The fully-parsed HTML from the Markdown content under the heading area is accessible through a single variable called <strong>$content</strong>."
+                    "text": "The template used is specified in the <strong>view</strong> variable (via the structure in your resources directory). The fully-parsed HTML from the Markdown content under the heading area is accessible through a single variable called <strong>$body</strong>."
                 }
             ]
         },
