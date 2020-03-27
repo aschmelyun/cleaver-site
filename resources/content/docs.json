@@ -91,6 +91,24 @@
             ]
         },
         {
+            "title": "Content Collection",
+            "slug": "collection",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "As of version 1.4, there's now a <strong>$content</strong> variable injected into every view (Blade template) across your site. This variable contains a Collection (much like an Eloquent collection in Laravel) which holds all the content from every file under your /resources/content directory."
+                },
+                {
+                    "type": "text",
+                    "text": "This enables you to use any Collection methods to organize, sort, filter, and map the pages available in your site across any view. For example, let's say that you have a blog and want to have a sidebar that shows your latest 5 posts. Instead of having to manually update this every time you add a new post, you can call the <strong>$content</strong> collection, sort by latest publish date, filter out just the ones that use a blog layout, and limit it to 5 items. You can then loop through this collection just like you would an array, and output links to each of those articles."
+                },
+                {
+                    "type": "text",
+                    "text": "Now, each time that you add a post to your site that matches the credentials you're filtering for, Cleaver automatically grabs your collection of files during compilation and outputs the appropriate list in your sidebar."
+                }
+            ]
+        },
+        {
             "title": "Building Your Site",
             "slug": "building",
             "contents": [
