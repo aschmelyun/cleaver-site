@@ -100,7 +100,7 @@
                 },
                 {
                     "type": "text",
-                    "text": "This enables you to use any Collection methods to organize, sort, filter, and map the pages available in your site across any view. For example, let's say that you have a blog and want to have a sidebar that shows your latest 5 posts. Instead of having to manually update this every time you add a new post, you can call the <strong>$content</strong> collection, sort by latest publish date, filter out just the ones that use a blog layout, and limit it to 5 items. You can then loop through this collection just like you would an array, and output links to each of those articles."
+                    "text": "This enables you to use any <a href=\"https://laravel.com/docs/5.8/collections#available-methods\">Collection method</a> to organize, sort, filter, and map the pages available in your site across any view. For example, let's say that you have a blog and want to have a sidebar that shows your latest 5 posts. Instead of having to manually update this every time you add a new post, you can call the <strong>$content</strong> collection, sort by latest publish date, filter out just the ones that use a blog layout, and limit it to 5 items. You can then loop through this collection just like you would an array, and output links to each of those articles."
                 },
                 {
                     "type": "text",
